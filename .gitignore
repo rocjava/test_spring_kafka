@@ -1,0 +1,8 @@
+/*
+!.gitignore
+!README.md
+!src
+!pom.xml
+target/
+.idea/
+.git/
