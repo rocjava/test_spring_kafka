@@ -1,6 +1,7 @@
 安装JAVA JDK
 安装ZooKeeper
 http://zookeeper.apache.org/releases.html#download
+解压
 将conf/zoo_sample.cfg重命名为zoo.cfg
 打开zoo.cfg找到并编辑dataDir=D:\penn\dev\zk_data
 添加系统变量：ZOOKEEPER_HOME=D:\penn\dev\zookeeper-3.4.12
@@ -12,6 +13,7 @@ http://zookeeper.apache.org/releases.html#download
 安装kafka
 http://kafka.apache.org/downloads
 注意要下载二进制版本
+解压
 进入config目录找到文件server.properties并打开
 找到并编辑log.dirs=D:\penn\dev\kafka_log
 找到并编辑zookeeper.connect=localhost:2181
